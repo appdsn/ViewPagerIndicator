@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="强大的viewpager指数器(也可以单独使用)，主要功能：\n1：自定义滑动块样式（滑块是一个View，你可以定制这个滑块的各种风格，比如可以设置一张图片，
+        自带一个颜色块滑块，可以设置颜色，圆角半径，高度，宽度（固定或者跟随tabView宽变化），位置（包括上，中，下三个位置）等；可以设置滑块是否覆盖在tabView上面，还是下面；
+        当手指滑动ViewPager时，滑块还可以联动等，或者禁用滑块，将不会显示滑块）\n
+2：自定义每个tabView样式（每个tab都是一个View，你可以自定义这个View，比如：常用的底部导航tab状态切换）；" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="doClick"
+        android:text="TopTab" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="doClick"
+        android:text="ScrollTab" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="doClick"
+        android:text="CircleTab" />
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="doClick"
+        android:text="BottomTab" />
+
+</LinearLayout>
