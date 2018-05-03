@@ -37,13 +37,17 @@ public class LineScrollBar extends View implements IScrollBar {
     }
 
     public void setHeight(int barHeight) {
-        this.mBarHeight = barHeight;
+        if (barHeight>0) {
+            this.mBarHeight = barHeight;
+        }
     }
 
     /*默认宽度是tabview的宽度，会随着手指滑动变化，设置固定值后，不会变化*/
     public void setWidth(int barWidth) {
-        this.mBarWidth = barWidth;
-        isFixWidth = true;
+        if (barWidth>0) {
+            this.mBarWidth = barWidth;
+            isFixWidth = true;
+        }
     }
 
     public void setColor(int color) {

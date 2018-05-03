@@ -69,7 +69,6 @@ public class ScrollTabActivity extends FragmentActivity {
 
 
         indicator.bindViewPager(viewPager);
-        indicator.setScrollBarFront(true);
         indicator.setIndicatorAdapter(new IndicatorAdapter() {
             @Override
             public View getTabView(Context context, int position) {

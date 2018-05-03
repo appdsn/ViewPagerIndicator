@@ -28,7 +28,7 @@ public class ViewPagerIndicator extends HorizontalScrollView implements ViewPage
     protected IScrollBar mScrollBar;
     protected boolean isClicked = true;
     protected boolean isSmoothScroll = true;
-    protected boolean isScrollBarFront = false;
+    protected boolean isScrollBarFront = true;
     protected OnClickListener mOnTabViewClickListener;
     protected boolean mIsFix;
 
