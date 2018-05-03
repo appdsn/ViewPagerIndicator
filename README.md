@@ -4,6 +4,8 @@
 * 自定义滑动块样式（滑块是一个View，你可以定制这个滑块的各种风格，比如可以设置一张图片， 自带一个颜色块滑块，可以设置颜色，圆角半径，高度，宽度（固定或者跟随tabView宽变化），位置（包括上，中，下三个位置）等；可以设置滑块是否覆盖在tabView上面，还是下面； 当手指滑动ViewPager时，滑块还可以联动等，或者禁用滑块，将不会显示滑块）
 * 自定义每个tabView样式（每个tab都是一个View，你可以自定义这个View，比如：常用的底部导航tab状态切换）；
 
+<img src="https://github.com/wbz360/ViewPagerIndicator/raw/master/screenshot/0.jpg" height="460px" width="280px" /><img src="https://github.com/wbz360/ViewPagerIndicator/raw/master/screenshot/1.jpg" height="460px" width="280px" /><img src="https://github.com/wbz360/ViewPagerIndicator/raw/master/screenshot/2.jpg" height="460px" width="280px" /><img src="https://github.com/wbz360/ViewPagerIndicator/raw/master/screenshot/3.jpg" height="460px" width="280px" /><img src="https://github.com/wbz360/ViewPagerIndicator/raw/master/screenshot/4.jpg" height="460px" width="280px" />
+
 使用方法
 =
 
