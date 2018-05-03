@@ -6,6 +6,20 @@
 
 <img src="https://github.com/wbz360/ViewPagerIndicator/raw/master/screenshot/0.jpg" height="460px" width="280px" /><img src="https://github.com/wbz360/ViewPagerIndicator/raw/master/screenshot/1.jpg" height="460px" width="280px" /><img src="https://github.com/wbz360/ViewPagerIndicator/raw/master/screenshot/2.jpg" height="460px" width="280px" /><img src="https://github.com/wbz360/ViewPagerIndicator/raw/master/screenshot/3.jpg" height="460px" width="280px" /><img src="https://github.com/wbz360/ViewPagerIndicator/raw/master/screenshot/4.jpg" height="460px" width="280px" />
 
+添加依赖
+=
+```java
+allprojects {
+  repositories {
+      ...
+      maven { url 'https://jitpack.io' }
+  }
+}
+
+dependencies {
+  compile 'com.github.appdsn:ViewPagerIndicator:2.0'
+}
+```
 使用方法
 =
 
